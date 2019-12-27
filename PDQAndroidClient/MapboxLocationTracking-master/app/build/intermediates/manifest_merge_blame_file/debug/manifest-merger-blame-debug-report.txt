@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.khadejaclarke.mapboxlocationtracking"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:5:5-79
+11-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <uses-feature
+14-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.5.0] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\70e0670e051a8dff34cf3632b183ab47\jetified-mapbox-android-sdk-8.5.0\AndroidManifest.xml:9:5-11:35
+15        android:glEsVersion="0x00020000"
+15-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.5.0] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\70e0670e051a8dff34cf3632b183ab47\jetified-mapbox-android-sdk-8.5.0\AndroidManifest.xml:10:9-41
+16        android:required="true" />
+16-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.5.0] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\70e0670e051a8dff34cf3632b183ab47\jetified-mapbox-android-sdk-8.5.0\AndroidManifest.xml:11:9-32
+17    <uses-feature
+17-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.5.0] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\70e0670e051a8dff34cf3632b183ab47\jetified-mapbox-android-sdk-8.5.0\AndroidManifest.xml:12:5-14:36
+18        android:name="android.hardware.wifi"
+18-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.5.0] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\70e0670e051a8dff34cf3632b183ab47\jetified-mapbox-android-sdk-8.5.0\AndroidManifest.xml:13:9-45
+19        android:required="false" />
+19-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.5.0] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\70e0670e051a8dff34cf3632b183ab47\jetified-mapbox-android-sdk-8.5.0\AndroidManifest.xml:14:9-33
+20
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.5.0] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\70e0670e051a8dff34cf3632b183ab47\jetified-mapbox-android-sdk-8.5.0\AndroidManifest.xml:17:5-79
+21-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.5.0] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\70e0670e051a8dff34cf3632b183ab47\jetified-mapbox-android-sdk-8.5.0\AndroidManifest.xml:17:22-76
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required for CrashReporterJobIntentService on API levels below 25 -->
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.5.0] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\70e0670e051a8dff34cf3632b183ab47\jetified-mapbox-android-sdk-8.5.0\AndroidManifest.xml:18:5-76
+22-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.5.0] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\70e0670e051a8dff34cf3632b183ab47\jetified-mapbox-android-sdk-8.5.0\AndroidManifest.xml:18:22-73
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\6da62582addfaf7aa1dcbc89780fcd65\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:12:5-68
+23-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\6da62582addfaf7aa1dcbc89780fcd65\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:12:22-65
+24
+25    <application
+25-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:8:5-23:19
+26        android:allowBackup="true"
+26-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:10:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:11:9-43
+30        android:label="@string/app_name"
+30-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:12:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:13:9-54
+32        android:supportsRtl="true"
+32-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:14:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme"
+34-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:15:9-40
+35        android:usesCleartextTraffic="true" >
+35-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:9:9-44
+36        <activity android:name="com.khadejaclarke.mapboxlocationtracking.MainActivity" >
+36-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:16:9-22:20
+36-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:16:19-47
+37            <intent-filter>
+37-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:17:13-21:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:18:17-69
+38-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:18:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:20:17-77
+40-->D:\Documents\Year 4 Semester 1\Project Management\MapboxLocationTracking-master\app\src\main\AndroidManifest.xml:20:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\6da62582addfaf7aa1dcbc89780fcd65\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:19:9-23:39
+45            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+45-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\6da62582addfaf7aa1dcbc89780fcd65\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:20:13-93
+46            android:authorities="com.khadejaclarke.mapboxlocationtracking.mapboxtelemetryinitprovider"
+46-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\6da62582addfaf7aa1dcbc89780fcd65\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:21:13-79
+47            android:exported="false"
+47-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\6da62582addfaf7aa1dcbc89780fcd65\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:22:13-37
+48            android:initOrder="100" />
+48-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\6da62582addfaf7aa1dcbc89780fcd65\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:23:13-36
+49
+50        <service
+50-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\6da62582addfaf7aa1dcbc89780fcd65\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:25:9-27:72
+51            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
+51-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\6da62582addfaf7aa1dcbc89780fcd65\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:26:13-92
+52            android:permission="android.permission.BIND_JOB_SERVICE" />
+52-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\tessa\.gradle\caches\transforms-2\files-2.1\6da62582addfaf7aa1dcbc89780fcd65\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:27:13-69
+53    </application>
+54
+55</manifest>
